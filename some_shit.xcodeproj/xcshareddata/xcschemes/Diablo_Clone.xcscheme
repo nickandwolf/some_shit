@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "44BF345B225A0E6700179A39"
-               BuildableName = "Diablo_Clone"
-               BlueprintName = "Diablo_Clone"
-               ReferencedContainer = "container:Diablo_Clone.xcodeproj">
+               BuildableName = "some_shit"
+               BlueprintName = "some_shit"
+               ReferencedContainer = "container:some_shit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44BF345B225A0E6700179A39"
-            BuildableName = "Diablo_Clone"
-            BlueprintName = "Diablo_Clone"
-            ReferencedContainer = "container:Diablo_Clone.xcodeproj">
+            BuildableName = "some_shit"
+            BlueprintName = "some_shit"
+            ReferencedContainer = "container:some_shit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44BF345B225A0E6700179A39"
-            BuildableName = "Diablo_Clone"
-            BlueprintName = "Diablo_Clone"
-            ReferencedContainer = "container:Diablo_Clone.xcodeproj">
+            BuildableName = "some_shit"
+            BlueprintName = "some_shit"
+            ReferencedContainer = "container:some_shit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44BF345B225A0E6700179A39"
-            BuildableName = "Diablo_Clone"
-            BlueprintName = "Diablo_Clone"
-            ReferencedContainer = "container:Diablo_Clone.xcodeproj">
+            BuildableName = "some_shit"
+            BlueprintName = "some_shit"
+            ReferencedContainer = "container:some_shit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
