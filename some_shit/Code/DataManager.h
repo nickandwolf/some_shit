@@ -7,6 +7,7 @@
 //
 
 #pragma once
+#include <stdio.h>
 #include <string.h>
 #include "Player.h"
 #include "Items.h"
@@ -21,6 +22,8 @@
 typedef union {
     struct Player player;
     struct Item item;
+    struct Door door;
+    struct Key key;
 } Object;
 
 typedef struct Node {
@@ -28,12 +31,24 @@ typedef struct Node {
     int type;
 } Node;
 
+void DMDebugList(void);
+
 void DMInit(void);
-int DMGetObjectVector(Vector2 pos);
+int DMGetIndexByVector(Vector2 pos);
 void DMClearList(void);
 void DMAddList(Object object, int type);
 
-int DMGetObjectArr(int i);
-int DMGetObjectPos(Vector2 pos);
-int DMGetTypeArr(int i);
-int DMGetTypePos(Vector2 pos);
+int DMGetObjectByIndex(int i);
+int DMGetObjectByPos(Vector2 pos);
+
+int DMGetTypeByIndex(int i);
+int DMGetTypeByPos(Vector2 pos);
+
+Vector2 DMGetPosByIndex(int i);
+
+void DMUpdateAll(void);
+void DMReturnSprites(void);
+
+//MARK: Engine Specific
+Texture2D DMGetSpriteByIndex(int i);
+Rectangle DMGetFrameByIndex(int i);

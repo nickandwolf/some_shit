@@ -14,6 +14,7 @@
 typedef struct Item{ //TODO: optimize
     char name[12];
     Texture2D sprite;
+    Rectangle frame;
     Vector2 position;
     int durability;
     int size;

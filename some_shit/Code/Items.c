@@ -18,7 +18,10 @@ void ItemAttack(Item* item, int damage) {
 Item ItemBrickWall(Vector2 pos) {
     Item brickWall;
     strcpy(brickWall.name, "Brick Wall");
-    brickWall.position = pos;
+    brickWall.sprite = LoadTexture("Assets/terrain.png");
+    brickWall.frame = (Rectangle){48,48,48,48};
+    brickWall.position.x = pos.x;
+    brickWall.position.y = pos.y;
     brickWall.durability = 5;
     brickWall.size = 5;
     brickWall.structure = 10;//size+dur
@@ -30,7 +33,8 @@ Item ItemBrickWall(Vector2 pos) {
 Door DoorCreate(Vector2 pos) {
     Door door;
     strcpy(door.attributes.name, "Brick Wall");
-    door.attributes.position = pos;
+    door.attributes.position.x = pos.x;
+    door.attributes.position.y = pos.y;
     door.attributes.durability = 2;
     door.attributes.size = 5;
     door.attributes.structure = 7;//size+dur

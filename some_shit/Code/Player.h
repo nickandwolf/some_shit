@@ -12,10 +12,11 @@
 typedef struct Player{ //TODO: optimize
     char name[12];
     Texture2D sprite;
-    int facing;
+    Rectangle frame;
     Vector2 position;
-    int attributeMax;
+    int facing;
     
+    int attributeMax;
     int str;
     int dex;
     int sta;
